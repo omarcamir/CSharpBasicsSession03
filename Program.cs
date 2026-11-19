@@ -158,7 +158,13 @@ namespace CSharpBasicsSession03
             #endregion
 
 
-            #region 15- 
+            #region 15- for each
+            Console.WriteLine($"\ndo ForEach Loop");
+
+            foreach (var book in loopBooks)
+            {
+                Console.WriteLine(book);
+            }
 
 
             #endregion
