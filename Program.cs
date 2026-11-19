@@ -12,6 +12,16 @@
 
             #endregion
 
+            #region ReferenceEquals()
+            string str1 = "Clean Code";
+            string str2 = "Clean Code";
+
+            bool isTheSameObj = object.ReferenceEquals(str1, str2);
+            Console.WriteLine($"is the same obj: {isTheSameObj}");
+            Console.ReadKey();
+
+            #endregion
+
         }
     }
 }
