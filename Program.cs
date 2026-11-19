@@ -81,7 +81,7 @@ namespace CSharpBasicsSession03
             title = "Refactoring";
 
             switch(title)
-{
+            {
                 case "Clean Code":
                         Console.WriteLine("Great choice!");
                         break;
@@ -98,7 +98,12 @@ namespace CSharpBasicsSession03
 
             #endregion
 
-            #region 11- 
+            #region 11- the ternary operator
+            int BPages = 464;
+            string sizeLabel = BPages > 300 ? "Long Book" : "Short Book";
+
+            Console.WriteLine($"sizeLabel: {sizeLabel}");
+
 
 
             #endregion
