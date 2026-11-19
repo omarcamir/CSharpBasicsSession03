@@ -1,4 +1,5 @@
-﻿namespace CSharpBasicsSession03
+﻿using System;
+namespace CSharpBasicsSession03
 {
     internal class Program
     {
@@ -18,7 +19,7 @@
 
             bool isTheSameObj = object.ReferenceEquals(str1, str2);
             Console.WriteLine($"is the same obj: {isTheSameObj}");
-            Console.ReadKey();
+            
 
             #endregion
 
@@ -47,7 +48,18 @@
 
             #endregion
 
-            #region 8- 
+            #region 8-  if / else
+
+            int pages = 464;
+            if (pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+
+            }
 
 
             #endregion
@@ -109,6 +121,8 @@
 
             #endregion
 
+
+            Console.ReadKey();
 
 
         }
