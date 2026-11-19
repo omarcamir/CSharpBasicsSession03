@@ -140,7 +140,19 @@ namespace CSharpBasicsSession03
             #endregion
 
 
-            #region 14- 
+            #region 14- do while loop
+
+            Console.WriteLine($"\ndo While Loop");
+
+
+            int y = 0;
+
+            do
+            {
+                Console.WriteLine($"{y + 1}. Checking book...");
+                y++;
+            }
+            while (y < loopBooks.Length);
 
 
             #endregion
