@@ -64,7 +64,14 @@ namespace CSharpBasicsSession03
 
             #endregion
 
-            #region 9- 
+            #region 9-  Logical Operator(&&)
+            int BookPages = 464; 
+            bool isAvailable = true;
+
+            if (BookPages > 300 && isAvailable)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
 
 
             #endregion
