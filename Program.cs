@@ -170,7 +170,17 @@ namespace CSharpBasicsSession03
             #endregion
 
 
-            #region 16- 
+            #region 16- break with for loop
+
+            Console.WriteLine($"\nbreak with For Loop");
+            for (int i = 0; i < loopBooks.Length; i++)
+            {
+                if (loopBooks[i] == "Refactoring")
+                {
+                    break;
+                }
+                Console.WriteLine($"{i + 1} . {loopBooks[i]}");
+            }
 
 
             #endregion
