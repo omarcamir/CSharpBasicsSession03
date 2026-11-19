@@ -110,6 +110,8 @@ namespace CSharpBasicsSession03
 
 
             #region 12- for loop
+
+            Console.WriteLine($"\nFor Loop");
             string[] loopBooks = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             for (int i = 0; i < loopBooks.Length; i++)
             {
@@ -120,7 +122,19 @@ namespace CSharpBasicsSession03
             #endregion
 
 
-            #region 13- 
+            #region 13- while loop
+
+            Console.WriteLine($"\nWhile Loop");
+
+
+            int x = 0;
+
+            while (x < loopBooks.Length)
+            {
+                Console.WriteLine($"{x + 1} . {loopBooks[x]}");
+                x++;
+
+            }
 
 
             #endregion
