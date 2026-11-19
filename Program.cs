@@ -186,13 +186,37 @@ namespace CSharpBasicsSession03
             #endregion
 
 
-            #region 17- 
+            #region 17- skip while loop is working
+
+            Console.WriteLine($"\nskip while loop is working");
+            for (int i = 0; i < loopBooks.Length; i++)
+            {
+                if (loopBooks[i] != "The Pragmatic Programmer")
+                {
+                    Console.WriteLine($"{i + 1} . {loopBooks[i]}");
+
+                }
+            }
 
 
             #endregion
 
 
-            #region 18- 
+            #region 18- PrintFirstBook
+            Console.WriteLine($"\nPrintFirstBook");
+
+            void PrintFirstBook()
+            {
+                if (loopBooks.Length == 0)
+                {
+                    return;
+                }
+
+
+                Console.WriteLine(loopBooks[0]);
+            }
+
+            PrintFirstBook();
 
 
             #endregion
@@ -203,4 +227,7 @@ namespace CSharpBasicsSession03
 
         }
     }
+
 }
+
+
