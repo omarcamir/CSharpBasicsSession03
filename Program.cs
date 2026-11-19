@@ -109,7 +109,12 @@ namespace CSharpBasicsSession03
             #endregion
 
 
-            #region 12- 
+            #region 12- for loop
+            string[] loopBooks = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for (int i = 0; i < loopBooks.Length; i++)
+            {
+                Console.WriteLine($"{i + 1} . {loopBooks[i]}");
+            }
 
 
             #endregion
